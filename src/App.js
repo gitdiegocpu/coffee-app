@@ -1,13 +1,14 @@
 
 import './App.css';
 import Header from './components/Header'
-import CoffeList from './components/CoffeList'
+import CoffeeList from './components/CoffeeList'
 import Footer from './components/Footer'
 
 function App() {
   return (
     <>
     <Header/>
+    <CoffeeList/>
     <Footer/>
     </>
 

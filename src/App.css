@@ -9,11 +9,11 @@
 
 body {
   box-sizing: border-box;
-  background-color: rgb(184, 120, 37);
+  background-color: rgb(239, 229, 217);
   font-family: 'roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #f4edaf;
+  color: #e4d776;
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ header {
   
 }
 
-h1{
+h1 {
   font-size: 4em;
   font-weight: 900;
   color: #2c2100;
@@ -39,13 +39,43 @@ h1{
 
 main {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 1em;
+}
+
+section {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 1em;
+  width: 100%;
+
 }
 
-footer{
+button{
+  padding: 8px 24px;
+  font-size: 1.4em;
+  margin: 4px;
+}
+
+.coffee-card {
+  width: 300px;
+  background-color: #ffffff20;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 8px;
+}
+
+.coffee-card > img {
+  width: 100%;
+}
+
+
+footer {
   display: flex;
   justify-content: center;
   padding: 1em;
